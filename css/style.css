@@ -13,6 +13,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*-------------
+    CLEARFIX
+--------------*/
+
+/* clear footer */
+.columns-container::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* clear footer-bottom */
+.footer-bottom::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 /*----------- 
     COMMONS
 ------------*/
@@ -157,6 +175,77 @@ section p{
     margin-bottom: 20px;
 }
 
+/* colore test footer */
+footer{
+    color: white;
+}
+
+/* contenitore colonne */
+.columns-container{
+    padding-top: 50px;
+    margin-left: 20%;
+    padding-bottom: 30px;
+}
+
+/* stile bandiera */
+.columns-container img{
+    width: 15px;
+    height: 10px;
+}
+
+/* stile classe .col */
+footer .col{
+    float: left;
+    margin-left: 50px;
+}
+
+/* rimozione punti da lista non ordinata e distanziamento elementi */
+footer li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+
+/* distanziamento icone */
+footer i{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+/* distanziamento titoli */
+.select-nation{
+    padding-top: 10px;
+}
+
+/* modifica titolo footer h3 */
+footer h3{
+    font-size: 23px;
+}
+
+/* hr */
+footer hr{
+    border-color: #7289da;
+    margin: 0 20%;
+}
+
+/* footer bottom */
+.footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* logo discord footer */
+.footer-bottom img{
+    float: left;
+    margin-left: 20%;
+}
+
+/* button registrati footer */
+.footer-bottom button{
+    float: right;
+    margin-right: 20%;
+}
+
 /*------------------------- 
     CARATTERISTICHE LINK
 -------------------------*/
@@ -209,7 +298,17 @@ a{
     background-color: #f6f6f6;
 }
 
+/* Colore testo lilla discord */
+.lilla-text{
+    color: #8ea1e1;
+}
+
 /* colore sfondo lilla discord */
 .lilla-background{
     background-color: #8ea1e1;
+}
+
+/* Colore testo titoli footer */
+.footer-titles-color{
+    color: #7289da;
 }
