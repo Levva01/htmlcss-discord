@@ -132,8 +132,27 @@ section p{
     left: 12%;
 }
 
+/* specchia l'immagine sull'asse Y */
 .reversed{
     transform: scaleY(-1);
+}
+
+/* ultima sezione */
+.last-section{
+    text-align: center;
+}
+
+/* contenitore testo ultima sezione */
+.text-lastsection-container{
+    padding-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+/* modifica margin bottone ultima sezione */
+.last-section button{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*------------------------- 
@@ -173,14 +192,22 @@ a{
     color: white;
 }
 
+/* colore sfondo nero discord */
 .black-background{
     background-color: #23272a;
 }
 
+/* colore sfondo bianco */
 .white-background{
     background-color: white;
 }
 
+/* colore sfondo grigio discord */
 .grey-background{
     background-color: #f6f6f6;
+}
+
+/* colore sfondo lilla discord */
+.lilla-background{
+    background-color: #8ea1e1;
 }
