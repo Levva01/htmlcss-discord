@@ -61,3 +61,12 @@ a{
 }
 
 
+/*------------
+    BUTTON
+------------*/
+
+.button-characteristic{
+    border-radius: 30px;
+    padding: 8px;
+    border: none;
+}
