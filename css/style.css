@@ -17,6 +17,7 @@ body{
     COMMONS
 ------------*/
 
+/* Parte superiore header */
 .header-top{
     position: relative;
     background-color: #3161e0;
@@ -65,8 +66,19 @@ a{
     BUTTON
 ------------*/
 
+/* Classe comune a tutti i button */
 .button-characteristic{
     border-radius: 30px;
     padding: 8px;
     border: none;
+}
+
+
+/*------------------ 
+    COLOR CLASSES 
+------------------*/
+
+/* Colore testo bianco */
+.white-text{
+    color: white;
 }
