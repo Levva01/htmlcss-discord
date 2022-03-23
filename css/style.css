@@ -8,7 +8,56 @@
     padding: 0;
 }
 
+/* Font pagina */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*----------- 
     COMMONS
 ------------*/
+
+.header-top{
+    position: relative;
+    background-color: #3161e0;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/* stile logo */
+.header-top img{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Contenitore bottone accedi */
+.button-header-container{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Nav */
+.nav-header-top{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.nav-header-top span{
+    padding-left: 1.5%;
+}
+
+/*------------------------- 
+    CARATTERISTICHE LINK
+-------------------------*/
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
