@@ -140,6 +140,8 @@ section p{
 /* ultima sezione */
 .last-section{
     text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
 
 /* contenitore testo ultima sezione */
