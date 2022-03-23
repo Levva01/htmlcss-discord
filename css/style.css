@@ -84,31 +84,56 @@ body{
 /* Sezione main */
 section{
     position: relative;
+    min-height: 500px;
+    margin-bottom: 50px;
 }
 
 /* contenitore testo section */
-.section-container-right{
+.first .section-container-right{
     width: 20%;
     position: absolute;
     top: 3%;
     right: 15%;
 }
 
-.section-container-right h1{
+/* Stile titolo sezione */
+section h1{
     margin-top: 32px;
     font-size: 40px;
 }
 
-.section-container-right p{
+/* Stile paragrafo sezione */
+section p{
     padding-top: 20px;
     font-size: 20px;
 }
 
-.section-container-left{
+/* Stile container di sinistra sezione */
+.first .section-container-left{
     width: 20%;
     position: absolute;
     top: 3%;
     left: 12%;
+}
+
+/* contenitore di destra section */
+.second .section-container-right{
+    width: 20%;
+    position: absolute;
+    top: 3%;
+    right: 38%;
+}
+
+/* Stile container di sinistra sezione */
+.second .section-container-left{
+    width: 20%;
+    position: absolute;
+    top: 3%;
+    left: 12%;
+}
+
+.reversed{
+    transform: scaleY(-1);
 }
 
 /*------------------------- 
@@ -154,4 +179,8 @@ a{
 
 .white-background{
     background-color: white;
+}
+
+.grey-background{
+    background-color: #f6f6f6;
 }
